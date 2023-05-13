@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="js" href="script.js">
+    <!-- font awesome links for text type icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="wrapper">
+
+
+        <!--     =========================================== top navigation bar=============================== -->
+
+        <div class="container">
+            <div class="navbar">
+                <div class="navleft">
+                    SUMIT JAIN
+                </div>
+                <div class="navright">
+                    <ul class="nav-right-menu">
+                        <li class="nav-btn home" onclick="active()"><a>Home</a></li>
+                        <li class="nav-btn education"><a href="#ed-ex-section">Education & Experiences</a></li>
+                        <li class="nav-btn skills"><a href="#skills-section">Skills</a></li>
+                        <li class="nav-btn certification"><a href="#project-section">Projects</a></li>
+                        <li class="nav-btn YouTube"><a href="#youtube-section">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--   <======================================= Hero Section start =======================================> -->
+
+        <section class="intro-div">
+            <!--       intro-container -->
+            <div class="intro-container">
+                <!--         greetin and name div -->
+                <div class="greeting-div">
+                    <div id="greeting-child">
+                        <p>14</p>
+                        <p>YEARS</p>
+                        <P> OF EXPERIENCE IN</P>
+                        <P>TEACHING</P>
+                        <div class="cv-div"><a href="images/Sumit jain Resume.pdf" download="My_CV">Download CV</a></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--   <======================================= Hero Section end =======================================> -->
+
+        <!--     ============================= Objectinve ================================ -->
+        <div class="objective-container">
+            <h2 class="Objective desc-font">"Objective: To hold the position of responsibility in a professionaly managed
+                organisation
+                under
+                superior guidence. Always prefer challenging jobs for upgrading knowledge and skill from time to time"
+            </h2>
+        </div>
+
+
+
+        <!--     ================================== updated education and experience ================== -->
+
+        <div class="tab-container" id="ed-ex-section">
+
+            <div class="tab-bar w3-black">
+                <button class="tab-btn desc-font w3-button"  onclick="openSection('Experiences')">My Experiences</button>
+                <button class="tab-btn desc-font w3-button" onclick="openSection('Education')">My Education</button>
+            </div>
+
+            <div id="Experiences" class="tab-content section">
+
+                <div class="content-container">
+                    <div class="content-box">
+                        <div class="left-box">
+                            <p class="desc-font">Aug 2022 to Present</p>
+                        </div>
+                        <div class="right-box">
+                            <div class="round"></div>
+                            <div class="round2"></div>
+                            <h3 class="desc-font">Trainer (Assistant Professor)</h3>
+                            <p class="desc-font">Presently working as a Trainer (Assistant Professor) in Acropolis Institute of Technology & Research, Indore</p>
+                        </div>
+                    </div>
+
+                    <div class="content-box">
+                        <div class="left-box">
+                            <p class="desc-font">Sept 2018 to Aug 2022</p>
+                        </div>
+                        <div class="right-box">
+                            <div class="round"></div>
+                            <div class="round2"></div>
+                            <h3 class="desc-font">Trainer (Assistant Professor)</h3>
+                            <p class="desc-font">4 year Experience as a Trainer (Assistant professor) at IPS Academy, IES Indore.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="content-box">
+                        <div class="left-box">
+                            <p class="desc-font">July 2012 to Aug 2018</p>
+                        </div>
+                        <div class="right-box">
+                            <div class="round"></div>
+                            <div class="round2"></div>
+                            <h3 class="desc-font">Trainer (Assistant Professor)</h3>
+                            <p class="desc-font">Six year Experience as a Trainer (Assistant professor) at Acropolis Technical Campus.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="content-box">
+                        <div class="left-box">
+                            <p class="desc-font">July 2010 to June 2012</p>
+                        </div>
+                        <div class="right-box">
+                            <div class="round"></div>
+                            <div class="round2"></div>
+                            <h3 class="desc-font">Teaching Assistant</h3>
+                            <p class="desc-font">Two year Experience as a Teaching Assistant at IET (DAVV), Indore.</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="content-box">
+                        <div class="left-box">
+                            <p class="desc-font">July 2009 to June 2010</p>
+                        </div>
+                        <div class="right-box">
+                            <div class="round"></div>
+                            <div class="round2"></div>
+                            <h3 class="desc-font">Trainer</h3>
+                            <p class="desc-font">11 month Experience as a Trainer in Lord Krishna College of Technology, Indore.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="Education" class="tab-content section" style="display:none">
+                
+                <div class="content-container">
+                    <div class="content-box">
+                        <div class="left-box">
+                            <p class="desc-font">2010-2012</p>
+                        </div>
+                        <div class="right-box">
+                            <div class="round"></div>
+                            <div class="round2"></div>
+                            <h3 class="desc-font">M.E. in Computer Engg.</h3>
+                            <i class="institute">Institute of Engineering and Technology, D.A.V.V Indore</i>
+                            <p class="desc-font">I passed my M.E., in Computer Engineering, Specialization in Software Engineering with 75.2% aggregate.</p>
+                        </div>
+                    </div>
+
+                    <div class="content-box">
+                        <div class="left-box">
+                            <p class="desc-font">2005-2009</p>
+                        </div>
+                        <div class="right-box">
+                            <div class="round"></div>
+                            <div class="round2"></div>
+                            <h3 class="desc-font">B.E. in CSE</h3>
+                            <i class="institute">Mandsaur Institute of Technology (RGPV)</i>
+                            <p class="desc-font">I passed my B.E., in Computer Science Engineering with 76.9% aggregate.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="content-box">
+                        <div class="left-box">
+                            <p class="desc-font">2004</p>
+                        </div>
+                        <div class="right-box">
+                            <div class="round"></div>
+                            <div class="round2"></div>
+                            <h3 class="desc-font">12th Board</h3>
+                            <i class="institute">NHSS (MP Board), Neemuch</i>
+                            <p class="desc-font">I passed my Higher Secondary Schooling with 72.2% aggregate.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="content-box">
+                        <div class="left-box">
+                            <p class="desc-font">2002</p>
+                        </div>
+                        <div class="right-box">
+                            <div class="round"></div>
+                            <div class="round2"></div>
+                            <h3 class="desc-font">10th Board</h3>
+                            <i class="institute">NHSS (MP Board), Neemuch</i>
+                            <p class="desc-font">I passed my Higher Secondary Schooling with 66.8% aggregate.</p>
+                        </div>
+                    </div>   
+                
+                </div>
+                
+            </div>
+
+        </div>
+
+
+        <!--     ========================== Skills section ============================== -->
+
+
+        <div id="skills-section">
+            <h2 class="h2-heading">My Technical Skills</h2>
+            <img class="skills-image" src="images/tech-stcak.png" alt="tech-stcak">
+        </div>
+
+
+        <!-- <section id="skills-section">
+
+            <div class="section-heading">
+                <h2 class="desc-font">Technical Skill Set</h2>
+                <p class="desc-font">This is my favourate skills on which I work.</p>
+            </div>
+
+            <div class="skills-div">
+
+                <div class="logo-div">
+                    <img src="images/c.png" alt="skill_logo">
+                    <p class="desc-font">C Language</p>
+                </div>
+
+                <div class="logo-div">
+                    <img src="images/cpp.png" alt="skill_logo">
+                    <p class="desc-font">C++ Language</p>
+                </div>
+
+                <div class="logo-div">
+                    <img src="images/python.png" alt="skill_logo">
+                    <p class="desc-font">Python</p>
+                </div>
+
+                <div class="logo-div">
+                    <img src="images/java.png" alt="skill_logo">
+                    <p class="desc-font">Java</p>
+                </div>
+
+                <div class="logo-div">
+                    <img src="images/html.png" alt="skill_logo">
+                    <p class="desc-font">HTML</p>
+                </div>
+
+                <div class="logo-div">
+                    <img src="images/css.webp" alt="skill_logo">
+                    <p class="desc-font">CSS</p>
+                </div>
+
+                <div class="logo-div">
+                    <img src="images/dev_cpp.png" alt="skill_logo">
+                    <p class="desc-font">Dev c++</p>
+                </div>
+
+                <div class="logo-div">
+                    <img src="images/rational_rose_icon.png" alt="skill_logo">
+                    <p class="desc-font">Rational Rose</p>
+                </div>
+
+            </div> -->
+
+            <!--  =============================== Projects =================================== -->
+
+            <section id="project-section">
+                <div class="section-heading">
+                    <h2 class="h2-heading">My Personal Projects</h2>
+                    <p class="desc-font">Have a look below some of my projects.</p>
+                </div>
+                <!--                   project #1 -->
+                <div class="project-contaner">
+                    <div class="project1">
+                        <img src="images/automated-modeling_project.jpg">
+                        <h3 class="desc-font">Automated Modeling and Containment of Worms</h3>
+                        <p class="desc-font">This is a project basically for the modeling and removal of worms
+                            It was a model that prevents the spread of a worm beyond its early stage.</p>
+                    </div>
+
+
+                    <div class="project1">
+                        <img src="images/customer-service_project.jpg">
+                        <h3 class="desc-font">Customer Service Desk</h3>
+                        <p class="desc-font">This customer oriented web application which keep the details of
+                            various Organization and their branches, it also help user to search the
+                            organization details Classified according to the sector classified. </p>
+                    </div>
+
+                    <div class="project1">
+                        <img src="images/cryptography_project.jpg">
+                        <h3 class="desc-font">Cryptography</h3>
+                        <p class="desc-font">This project basically for the Encryption & Decryption of a file in order
+                            to protect the data from unauthorized access. </p>
+                    </div>
+
+
+            </section>
+
+            <!--     ================================= Youtube channels section ============================= -->
+
+            <section id="youtube-section">
+
+                <div class="section-heading">
+                    <div class="youtube-div">
+                        <h2 class="h2-heading">My YouTube Channels</h2>
+                        <i class="fa-brands fa-youtube fa-bounce" style="color: #ff1f1f; font-size: 30px;"></i>
+                    </div>
+                    <p class="desc-font">Explore my YouTube Channels were I upload Educatonal and knowledgeable videos
+                        for free.
+                    </p>
+                </div>
+
+                <div class="youtube-container">
+                    <a href="https://www.youtube.com/@sumitkipathshala6555/featured" target="_blank">
+                        <div class="channel">
+                            <img class="channel-logo" src="images/channel1img.jpg" />
+                            <p>Sumit ki Pathshala</p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.youtube.com/@integralknowledge8129/featured" target="_blank">
+                        <div class="channel">
+                            <img class="channel-logo" src="images/channel2img.jpg" />
+                            <p>Integral Knowledge</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+
+            <!-- =============================== achievement sections ================== -->
+
+            <section id="achievement-section">
+                <div class="achievement-container">
+                    <div class="achievement-1">
+                        <h2 class="h2-heading">MY ACHIEVEMENTS AND CO-CURRICULAR ACTIVITIES</h2>
+                        <ul>
+                            <li><p class="desc-font">Participated in RASHTRAGAAN , an Initiative by the Ministry of Culture to mark AZADI
+                                KA AMRIT MAHOTSAV.</p></li>
+                            <li><p class="desc-font">Qualified GATE (Graduate Aptitude Test for Engineers) in 2012 with 93.2%. </p></li>
+                            <li><p class="desc-font">Qualified GATE (Graduate Aptitude Test for Engineers) in 2010with 93.4%</p></li>
+                            <li><p class="desc-font">Participated in Software exhibition conducted by ASCII.</p></li>
+                            <li><p class="desc-font">Participated in 15 days workshop by HCL INFOSYSTEMS.</p></li>
+                            <li><p class="desc-font">Part of the organizing team for Annual Function of college in 2006-07.</p></li>
+                        </ul>
+                    </div>
+                    <div class="achievement-2">
+                        <img src="images/achivements_vect2.jpg" alt="achivements_vect2-image">
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- ============================ footer section ======================================== -->
+            <footer>
+                <!--footer icon section-->
+                <div class="footer-wrapper">
+                    <div class="footer-section-top">
+
+                        <div class="footer-contactus-section">
+                            <h2 class="footer-heading-top">Contact me</h2>
+
+                            <div class="footer-contact-discription">
+                                <div class="mobile-no-section">
+                                    <i class="fa-sharp fa-solid fa-phone-volume"></i>
+                                    <p>+91 9827657501</p>
+                                </div>
+
+                                <div class="email-section">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <p>sumitjain@acropolis.in</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="footer-aboutme-section">
+                            <h2 class="footer-heading-top">About me</h2>
+
+                            <div class="footer-aboutme-links">
+                                <a href=".education-box">
+                                    Education
+                                </a>
+                                <a href=".experience-box">Experience</a>
+                                <a href="#skills-section">
+                                    Skills
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="footer-subscribe-section">
+                            <h2 class="footer-heading-top">Follow me</h2>
+                            <div class=footer-icon-section>
+                                <div class="footer-icon" title="Facebook">
+                                    <a href="https://www.facebook.com/sumitjain13787?mibextid=ZbWKwL" target="_blank">
+                                        <i class="fa-brands fa-facebook icon facebook"></i>
+                                    </a>
+                                </div>
+
+
+                                <div class="footer-icon " title="LinkedIn">
+                                    <a href="https://www.linkedin.com/in/sumit-jain-312baa61" target="_blank">
+                                        <i class="fa-brands fa-linkedin icon LinkedIn"></i>
+                                    </a>
+                                </div>
+                                <div class="footer-icon " title="Youtube">
+                                    <a href="https://www.youtube.com/@sumitkipathshala6555/featured" target="_blank">
+                                        <i class="fa-brands fa-youtube icon youtube"></i>
+                                    </a>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="footer-bottom">
+                        <div>
+                            <p>Copyright © 2023 <a target="_blank" href="https://www.linkedin.com/in/shivam-patel-798104248/">ShivamPatel</a></p>
+                        </div>
+                        <div>
+                            <p>Privacy Policy</p>
+                        </div>
+                        <div>
+                            <p>Terms & Conditions</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
